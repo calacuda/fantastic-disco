@@ -3,17 +3,30 @@
 
 <head>
   <meta charset="utf-8" />
-  <link data-trunk rel="rust" data-wasm-opt="z" data-bin="arg-1" />
-  <link data-trunk rel="icon" type="image/ico" href="/assets/favicon.ico" />
-  <link data-trunk rel="scss" href="/style/main.scss" />
+  
+<script type="module" nonce="EzczQ4je6A/4+Qbx7yY6FA==">
+import init, * as bindings from 'https://blog.eoghan-west.online/fantastic-disco/arg-1-350678d3d2194f8f.js';
+const wasm = await init('https://blog.eoghan-west.online/fantastic-disco/arg-1-350678d3d2194f8f_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="icon" href="https://blog.eoghan-west.online/fantastic-disco/favicon-951947a65c70f487.ico" integrity="sha384&#x2D;JvhA08FO28ukANGtDNRclGLL84a3stQDSjMueZid&#x2B;t9at64s2h4mAihj7WUIH6A&#x2B;"/>
+  <link rel="stylesheet" href="https://blog.eoghan-west.online/fantastic-disco/main-843d28cb6d7f8726.css" integrity="sha384&#x2D;pjsvLLvFsJS9ZECCgzcgdUrnU0ahNL0TgOUzebnLb1UYJ9uyMlPIPSXeZ&#x2B;aL8aIu"/>
   <!-- <link data-trunk rel="copy-dir" href="assets/" /> -->
   <!-- <link data-trunk rel="copy-dir" href="assets/images/" /> -->
   <!-- <link data-trunk rel="copy-dir" href="assets/fonts/" /> -->
   <!-- <link data-trunk rel="copy-file" href="assets/pls-just-gimme-the-discord-link.txt" /> -->
   <!-- <script data-trunk src="assets/js/hints.js"></script> -->
-  <link data-trunk rel="copy-dir" href="assets/" />
+  
   <title> Fantastic Disco </title>
-</head>
+
+<link rel="modulepreload" href="https://blog.eoghan-west.online/fantastic-disco/arg-1-350678d3d2194f8f.js" crossorigin=anonymous integrity="sha384-IjQaBTlkDsr0sR0poFDfoaD569b6qvCUEaaArvJ+/wHfCGSgqCGA1pXfmu5AOcjX">
+<link rel="preload" href="https://blog.eoghan-west.online/fantastic-disco/arg-1-350678d3d2194f8f_bg.wasm" crossorigin=anonymous integrity="sha384-eFxsgJfMgvBFZA87d687OqMifwAnPX7vHDR8/dKomyp7vsDQ+9pG4ym1S+33+UoZ" as="fetch" type="application/wasm"></head>
 
 <body></body>
 
